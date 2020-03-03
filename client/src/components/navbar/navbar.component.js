@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import LeftMenu from './Sections/LeftMenu';
-import RightMenu from './Sections/RightMenu';
+import LeftMenu from './section/leftMenu.component';
+import RightMenu from './section/rightMenu.component';
 import { Drawer, Button, Icon } from 'antd';
-import './Sections/Navbar.css';
+import './section/navbar.styles.css';
 
 function NavBar() {
   const [visible, setVisible] = useState(false)

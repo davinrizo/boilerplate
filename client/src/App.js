@@ -1,12 +1,12 @@
 import React, { Suspense } from 'react';
-import { Route, Switch } from "react-router-dom";
-import Auth from "../hoc/auth";
+import { Route, Switch } from 'react-router-dom';
+import Auth from "./hoc/auth";
 // pages for this product
-import LandingPage from "./views/LandingPage/LandingPage.js";
-import LoginPage from "./views/LoginPage/LoginPage.js";
-import RegisterPage from "./views/RegisterPage/RegisterPage.js";
-import NavBar from "./views/NavBar/NavBar";
-import Footer from "./views/Footer/Footer"
+import LandingPage from './pages/LandingPage/landingPage.component';
+import LoginPage from './pages/LoginPage/loginPage.component';
+import RegisterPage from './pages/RegisterPage/registerPage.component';
+import NavBar from './components/navbar/navbar.component';
+import Footer from './components/footer/footer.component';
 
 function App() {
   return (
